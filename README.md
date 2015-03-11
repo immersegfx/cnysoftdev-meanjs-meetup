@@ -1,6 +1,15 @@
 # cnysoftdev-meanjs-meetup
 Collection of Experiments for the  Central New York Software Developers MEAN.js Meetup 
 
+## Requirements
+
+ * [NodeJs](https://nodejs.org/)
+ * [MongoDB](http://www.mongodb.org/)
+
+## Installation
+
+Once you have the requirements installed checkout this repository you just need to run <code>npm install -g</code>.
+
 ## NodeJs
 
 * **connection-test.js** - Basic example of creating a server and leaving the connection open for responses
