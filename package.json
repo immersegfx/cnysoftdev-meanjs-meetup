@@ -1,0 +1,24 @@
+{
+  "name": "cnysoftdev-meanjs-meetup",
+  "version": "1.0.0",
+  "description": "Examples for the MEAN.js meetup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/immersegfx/cnysoftdev-meanjs-meetup.git"
+  },
+  "author": "Dwayne Maye",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/immersegfx/cnysoftdev-meanjs-meetup/issues"
+  },
+  "homepage": "https://github.com/immersegfx/cnysoftdev-meanjs-meetup",
+  "dependencies": {
+    "express": "^4.12.2",
+    "generator-meanjs": "^0.1.12",
+    "yo": "^1.4.6"
+  }
+}

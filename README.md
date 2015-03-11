@@ -1,2 +1,10 @@
 # cnysoftdev-meanjs-meetup
 Collection of Experiments for the  Central New York Software Developers MEAN.js Meetup 
+
+## NodeJs
+
+* **connection-test.js** - Basic example of creating a server and leaving the connection open for responses
+
+## Express JS
+
+* **hello.js** - Simple hello how are you app run using <code>node hello.js</code>
