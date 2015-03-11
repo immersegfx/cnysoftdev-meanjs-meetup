@@ -1,0 +1,15 @@
+{
+  "name": "cny-dev-meanjs-angular",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node examples.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dwayne Maye",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.12.2"
+  }
+}

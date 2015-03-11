@@ -1,4 +1,4 @@
-# cnysoftdev-meanjs-meetup
+# CNY Software Developers MEAN.js Meetup
 Collection of Experiments for the  Central New York Software Developers MEAN.js Meetup 
 
 ## Requirements

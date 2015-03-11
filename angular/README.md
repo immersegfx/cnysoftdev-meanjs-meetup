@@ -1,6 +1,6 @@
-# Some basic examples of using the Express framework 
+# Some basic examples of using the AngularJS 
 
-http://expressjs.com/
+https://angularjs.org/
 
 ## Installation
 

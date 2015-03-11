@@ -1,0 +1,48 @@
+<!doctype html>
+<html ng-app="meetupApp">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+</head>
+<body>
+
+<div ng-controller="MeetupController">
+    <div class="container">
+        <h2>Simple comments</h2>
+
+        <p><span class="badge">{{comments.length}}</span> Comments</p>
+        <ul class="list-group">
+            <li ng-repeat="comment in comments" class="list-group-item">
+                {{comment.text}}
+            </li>
+        </ul>
+        <div class="well">
+            <h3>Add a comment</h3>
+            <form ng-submit="addComment()" name="commentForm" novalidate="">
+                <div class="form-group">
+                    <input type="text" ng-model="commentText" size="30"
+                           placeholder="Add new comment" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <input class="btn btn-primary" type="submit" value="add" ng-disabled="!commentForm.$valid">
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<script>
+    angular.module('meetupApp', [])
+            .controller('MeetupController', ['$scope', function ($scope) {
+                $scope.comments = [
+                    {text: 'I think we are done with snow'},
+                    {text: 'nope!'}];
+
+                $scope.addComment = function () {
+                    $scope.comments.push({text: $scope.commentText});
+                    $scope.commentText = '';
+                };
+            }]);
+</script>
+</body>
+</html>
