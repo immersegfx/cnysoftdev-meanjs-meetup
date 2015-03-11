@@ -5,6 +5,7 @@ Collection of Experiments for the  Central New York Software Developers MEAN.js 
 
  * [NodeJs](https://nodejs.org/)
  * [MongoDB](http://www.mongodb.org/)
+ * [Git](http://git-scm.com/)
 
 ## Installation
 
